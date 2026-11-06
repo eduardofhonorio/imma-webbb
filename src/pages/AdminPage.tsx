@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Plus, Search, Pencil, Trash2, ShieldCheck, ArrowLeft, Package } from 'lucide-react'
-import type { Product } from './ProductCard'
-import { ProductFormModal } from './ProductFormModal'
+import type { Product } from '../components/ProductCard'
+import { ProductFormModal } from '../components/ProductFormModal'
 
 type AdminPageProps = {
   products: Product[]

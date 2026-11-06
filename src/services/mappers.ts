@@ -1,7 +1,7 @@
 // Converte os JSONs da API (snake_case, NUMERIC possivelmente como string)
 // nas estruturas que os componentes React usam (camelCase, number).
 import type { Product } from '../components/ProductCard'
-import type { Order, OrderItem } from '../components/OrdersPage'
+import type { Order, OrderItem } from '../pages/OrdersPage'
 import type { AuthUser, Endereco } from './auth'
 import type { ApiEndereco, ApiPedido, ApiPedidoItem, ApiProduto, ApiUsuario } from '../types/api'
 

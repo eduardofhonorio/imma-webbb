@@ -1,7 +1,7 @@
 import { api } from './api'
 import { toOrder } from './mappers'
-import type { Order } from '../components/OrdersPage'
-import type { CartItem } from '../components/CartPage'
+import type { Order } from '../pages/OrdersPage'
+import type { CartItem } from '../pages/CartPage'
 import type { ApiPedido } from '../types/api'
 
 export type FormaPagamento = Order['formaPagamento']

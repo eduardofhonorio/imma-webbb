@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { Filter, ChevronDown, Heart, Search } from 'lucide-react'
-import { ProductCard, type Product } from './ProductCard'
+import { ProductCard, type Product } from '../components/ProductCard'
 
 type ExtendedProduct = {
   id: string | number

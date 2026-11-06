@@ -12,8 +12,8 @@ import {
   FileText,
   HelpCircle
 } from 'lucide-react'
-import type { CartItem } from './CartPage'
-import type { Order } from './OrdersPage'
+import type { CartItem } from '../pages/CartPage'
+import type { Order } from '../pages/OrdersPage'
 import type { Endereco } from '../services/auth'
 
 type CheckoutModalProps = {
